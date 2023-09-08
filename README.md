@@ -2,12 +2,18 @@
 
 ## Beyond All Reason (BAR)
 
-- RTS game
-- multiplayer
-- huge scale battles
-- everything is simulated
-- free to play
+- [x] RTS game
+- [x] multiplayer
+- [x] huge scale battles
+- [x] everything is simulated
+- [x] free to play
 
+| categories       	| rating|
+|----------------	|--------	|
+| gameplay       	| 9/10   	|
+| graphics       	| 6.5/10 	|
+| optimalization 	| 9.5/10 	|
+| Story          	| None   	|
 
 **[Bar official website](https://www.beyondallreason.info/)**
 
