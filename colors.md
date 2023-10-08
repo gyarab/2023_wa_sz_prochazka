@@ -12,6 +12,11 @@ Myslím si,že toto  logo je červené protože, má vzbuzovat zejména energii.
 ![yellow!](https://placehold.co/180x180/EFC958/FFF)
 ![cyan!](https://placehold.co/180x180/4AB19D/FFF)
 ![grey!](https://placehold.co/180x180/344E5C/FFF)
-- Tyrkosová je kombinací modré a zeleneá barvy, tedy kombinuje bezpečí, důvěru a 
-- Šedá je čistá neutráln9 barva. Měla by slou6it jako nerušivý podklad.
 
+- Červen barva vášně a nadšení.
+- Oranžvá je teplá, impulzivní,  barva značící komunitu a svobodu. 
+- Žlutá je optimistická barva naděje, radosti a zábavy.
+- Tyrkosová je kombinací modré a zeleneá barvy, tedy kombinuje bezpečí, důvěru, peníze a profesionalitu.
+- Šedá je čistá,neutrální a vyvážená barva. Měla by sloužit jako nerušivý podklad.
+
+Vše je v neatakujících odstínech, kvůli příjemějšímu zážitku uživatele.
