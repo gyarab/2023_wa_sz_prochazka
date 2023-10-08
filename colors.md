@@ -7,7 +7,7 @@ Myslím si,že toto  logo je červené protože, má vzbuzovat zejména energii.
 
 ## moje barvy
 
-![pink!](https://placehold.co/120x80/EF3D59/FFF)
+![pink!](https://placehold.co/240x160/EF3D59/FFF)
 ![orange!](https://placehold.co/600x400/E17A47/FFF)
 ![yellow!](https://placehold.co/600x400/EFC958/FFF)
 ![cyan!](https://placehold.co/600x400/4AB19D/FFF)
