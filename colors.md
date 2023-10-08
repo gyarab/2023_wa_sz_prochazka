@@ -7,11 +7,11 @@ Myslím si,že toto  logo je červené protože, má vzbuzovat zejména energii.
 
 ## moje barvy
 
-![pink!](https://placehold.co/240x160/EF3D59/FFF)
-![orange!](https://placehold.co/240x160/E17A47/FFF)
-![yellow!](https://placehold.co/240x160/EFC958/FFF)
-![cyan!](https://placehold.co/240x160/4AB19D/FFF)
+![pink!](https://placehold.co/180x180/EF3D59/FFF)
+![orange!](https://placehold.co/180x180/E17A47/FFF)
+![yellow!](https://placehold.co/180x180/EFC958/FFF)
+![cyan!](https://placehold.co/180x180/4AB19D/FFF)
 Tyrkosová je kombinací modré a zeleneá barvy, tedy kombinuje bezpečí, důvěru a 
-![grey!](https://placehold.co/240x160/344E5C/FFF)
+![grey!](https://placehold.co/180x180/344E5C/FFF)
 Šedá je čistá neutráln9 barva. Měla by slou6it jako nerušivý podklad.
 
