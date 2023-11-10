@@ -1,0 +1,16 @@
+.ruzova{
+    color: pink
+}
+.zlute{
+    color: yellow;
+}
+.tyrkysove{
+    color: aqua;
+}
+p{
+    line-height: 150%;
+}
+p.male {
+    line-height: 100%;
+    font-size: 50%;
+}
