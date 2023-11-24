@@ -1,11 +1,11 @@
 .ruzova{
-    color: pink
+    color: rgb(212, 4, 167)
 }
 .zlute{
-    color: yellow;
+    color: rgb(241, 167, 7);
 }
 .tyrkysove{
-    color: aqua;
+    color: rgb(0, 183, 255);
 }
 p{
     line-height: 150%;
@@ -16,4 +16,6 @@ p.male {
 }
 img{
     display: block;
+    margin-top: 10px;
+    /* padding: 20px; */
 }

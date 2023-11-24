@@ -14,7 +14,8 @@
 
         <p class="ruzova">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur quos aspernatur delectus corporis unde odio quam, 
             eaque eligendi architecto necessitatibus nostrum repudiandae dignissimos molestiae voluptatum eum voluptatem, autem, vitae porro.</p>
-        <img src="https://placehold.co/200x200/orange/white" alt="test">
+        <button onclick="change_visibility();">Cokolada</button>
+        <img id="img01"src="https://placehold.co/200x200/orange/white" alt="test">
         <img src="https://placehold.co/200x200/blue/white" alt="test">
         <img src="https://placehold.co/200x200/red/white" alt="test">
         <p class="zlute male">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur quos aspernatur delectus corporis unde odio quam, 
@@ -23,5 +24,19 @@
         <p class = "tyrkysove">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur quos aspernatur delectus corporis unde odio quam, 
             eaque eligendi architecto necessitatibus nostrum repudiandae dignissimos molestiae voluptatum eum voluptatem, autem, vitae porro.</p>
     </div>
+    <script>
+        var opened = false;
+        function change_visibility() {
+            const el = document.getElementById("img01")
+            if (opened){
+                el.style.display = "none"
+            }else{
+                el.style.display = "block"
+            }
+            opened = !opened
+            console.log(opened)
+            console.log(el)
+        }
+    </script>
 </body>
 </html>
