@@ -21,5 +21,5 @@ let card1 = document.getElementById('card-1')
 let card2 = document.getElementById('card-2')
 
 function clickCard(){
-    card1.innerHTML = '<img src="source/gragas.jpg" alt="card2">'
+    
 }
