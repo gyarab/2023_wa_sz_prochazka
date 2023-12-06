@@ -3,6 +3,18 @@ let opened_prev = 0
 let prev_openned_ID = null
 let prev_openned_ID2 = null
 
+function shuffle(container) {
+    for (let i = container.children.length; i >= 0; i--) {
+        container.appendChild(container.children[Math.random() * i | 0]);
+    }
+}
+
+// Get the container element and call the shuffle function
+document.addEventListener('DOMContentLoaded', function() {
+            const gridContainer = document.getElementById('grid-container');
+            shuffle(gridContainer);
+        });
+
 function card_click(cardID){
     if (opened_prev == 0){
         prev_openned_ID = cardID
@@ -40,11 +52,11 @@ function close_cards(ID1,ID2){
     cardImg2.src = "pexesoIMG/lol.jpg"
 }
 function same_img(ID1,ID2){
-    var card1 = document.getElementById(ID1);
+    var card1 = document.getElementById(ID1)
     var cardImg1 = card1.getElementsByTagName("img")[0];
     var imgIndex1 = cardImg1.dataset.imgindex
 
-    var card2 = document.getElementById(ID2);
+    var card2 = document.getElementById(ID2)
     var cardImg2 = card2.getElementsByTagName("img")[0];
     var imgIndex2 = cardImg2.dataset.imgindex
 
@@ -56,7 +68,7 @@ function same_img(ID1,ID2){
 }
 function cards_found(ID1, ID2){
     var card1 = document.getElementById(ID1)
-    var card2 = document.getElementById(ID2);
+    var card2 = document.getElementById(ID2)
 
     card1.style.pointerEvents = "none"
     card1.style.visibility = "hidden"
