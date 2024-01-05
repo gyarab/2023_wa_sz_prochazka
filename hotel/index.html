@@ -16,10 +16,10 @@
 <body>
 
 <!-- Navigation Bar using Bootstrap -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <div class="container">
       <!-- Brand/logo in the navigation bar -->
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Kočičkov</a>
       
       <!-- Button for toggling navigation menu on small screens -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,23 +31,23 @@
           <ul class="navbar-nav">
               <!-- Home link with active state -->
               <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#uvod">Úvod</a>
               </li>
 
               <!-- Features link -->
               <!-- # means the link goes nowhere -->
               <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#galerie">Galerie</a>
               </li>
 
               <!-- Pricing link -->
               <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#kde nas najdete">Kde nas najdete ?</a>
               </li>
 
               <!-- Disabled link -->
               <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  <a class="nav-link" href="#kontakt">Kontakt</a>
               </li>
           </ul>
       </div>
@@ -63,10 +63,25 @@
 <!-- Main content container -->
 <div class="container">
   <!-- Main heading -->
-  <h1 class="mt-3">Kočičí hotel Číčovice</h1>
+  <h1 class="mt-3" id="uvod">Kočičí hotel Číčovice</h1>
+  <div class="row">
+    <div class="col-12 col-md-6 order-2 order-md-1">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis perferendis, officia aspernatur neque nesciunt iste rerum unde autem ullam. Eveniet repellat architecto rerum quod error nam veniam beatae dicta odit.</p>
+    </div>
+    <div class="col-12 col-md-6 order-1 order-md-2">
+      <img class="w-100" alt="test" src="https://placehold.co/300x200">
+      <p class="text-center small">Cokolada</p>
+    </div>
+  </div>
+  <h2 id="galerie">Galerie</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aperiam quam quisquam facilis esse. Velit maxime, quae consequuntur cumque inventore porro, eos eius expedita quis quia neque laboriosam! Quos, aliquid?</p>
 
-  <!-- Lorem Ipsum text -->
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellat quos assumenda dicta? Dolore eligendi aspernatur quaerat sed beatae quae illum perferendis itaque! Nemo rem odit neque, qui accusantium facere.</p>
+  <h2 id="kde nas najdete">Kde nas najdete?</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum, necessitatibus provident nulla omnis quasi dolor obcaecati labore ut voluptatem, sequi nisi inventore. Vel, impedit! Impedit labore incidunt harum vitae?</p>
+
+  <h2 id="kontakt">Kontakt</h2>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, amet perspiciatis facilis asperiores tempore, aliquam quas quibusdam ipsum, vitae veritatis delectus necessitatibus vero! Perferendis ipsam maxime laboriosam at eum iure?</p>
+
 </div>
 
 
